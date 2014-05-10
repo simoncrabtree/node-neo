@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/simoncrabtree/node-neo/issues"
   },
-  "homepage": "https://github.com/simoncrabtree/node-neo"
+  "homepage": "https://github.com/simoncrabtree/node-neo",
+  "dependencies": {
+    "request": "~2.34.0",
+    "JSONStream": "~0.7.3",
+    "stream-json": "0.0.5",
+    "oboe": "~1.14.3"
+  }
 }
