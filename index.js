@@ -19,7 +19,7 @@ module.exports = function (cypher, params, callback) {
   .node('data[*]*', function (data) {
     results.push(data);
   })
-  .fail(error, function (error) {
+  .fail(function (error) {
   	console.log("node-neo failed", error);
   	callback(error);
   })
