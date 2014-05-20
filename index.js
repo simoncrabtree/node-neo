@@ -20,6 +20,7 @@ module.exports = function (cypher, params, callback) {
     results.push(data);
   })
   .fail(error) {
+  	console.log("node-neo failed", error);
   	callback(error);
   }
   .done(function (data) {
