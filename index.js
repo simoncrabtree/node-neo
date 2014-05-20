@@ -19,6 +19,9 @@ module.exports = function (cypher, params, callback) {
   .node('data[*]*', function (data) {
     results.push(data);
   })
+  .fail(error) {
+  	callback(error);
+  }
   .done(function (data) {
     callback(null, results);
   });
