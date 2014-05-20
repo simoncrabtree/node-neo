@@ -1,6 +1,6 @@
 {
   "name": "node-neo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Node.js module to communicate with the Neo4j graph database via the REST API",
   "main": "index.js",
   "scripts": {
